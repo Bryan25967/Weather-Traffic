@@ -1,0 +1,62 @@
+<!doctype html>
+<html class="no-js" lang="">
+  
+    <head>
+     <link rel="stylesheet" href="style.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+      <style>
+    
+        #weatherImages { 
+          display: flex;
+          justify-content: center;
+          padding-right: 15px;
+          padding-left: 15px;  
+        } 
+        .weatherInformation {
+              text-align: center;   
+              margin-left: 3%;
+              margin-right: 3%;
+        }
+        .noIssues {
+             text-align: center;
+             margin-left: 3%;
+             margin-right: 3%;
+          
+        } 
+      </style>
+    </head>
+
+    <body>
+        <header>
+          <section class="Container">
+            <a href="#" style="text-align: center; font-size: 2.5em; text-decoration: none; color: blue;"><h1>Weather & road conditions in your area</h1></a>
+              <nav>
+                 <section id="main" class="container" style="text-align: center; left: 175px; top: 150px"><a href="#"></a>
+                  <input autocomplete="address-level2" id= "text2" style= "text-align: center" placeholder="City">
+                  <input autocomplete="address-level1" id= "text3" style= "text-align: center" placeholder="State">
+                    <h3>or</h3>              
+                  <input autocomplete="postal-code" id= "text1"style= "text-align: center" placeholder="Zipcode">
+                  <br>
+                  <button style= "text-align: center; top: 150px; margin-top: 20px;">Check Weather & Roads</button>
+                </nav>
+              </section>
+         </header>
+         
+        
+         <section  id="weatherImages" class="container">
+          
+        </section> 
+   
+        <section id="weatherInfo" class="container">
+        </section>    
+
+          <section id="secondary" class="container">
+          </section>
+         
+          <script src="main.js" type="text/javascript" charset="utf-8" async defer></script>
+
+    </body>
+  
+</html>
+
